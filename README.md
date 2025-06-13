@@ -4,4 +4,4 @@
 
 <h1 align="center">Sodalite Packages</h1>
 
-Spec files for packages published in [odalite's COPR](https://copr.fedorainfracloud.org/coprs/dazedfairywren/SodaliteOS/) repos
+Spec files for packages published in [Sodalite's COPR](https://copr.fedorainfracloud.org/coprs/dazedfairywren/SodaliteOS/) repos
