@@ -25,12 +25,12 @@ BuildRequires: intel-gmmlib-devel >= 22.7.2
 BuildRequires: libva-devel
 BuildRequires: libdrm-devel
 BuildRequires: kernel-devel
-BuildRequires: intel-igc-devel >= 2.11.10
+BuildRequires: intel-igc-devel >= 2.7.8
 BuildRequires: ninja-build
 BuildRequires: libglvnd-devel
 BuildRequires: ocl-icd-devel
 BuildRequires: opencl-headers
-BuildRequires: oneapi-level-zero-devel >= 1.21.1
+BuildRequires: oneapi-level-zero-devel >= 1.22.4
 
 # This doesn't get added automatically, so specify it explicitly
 Requires: intel-igc
