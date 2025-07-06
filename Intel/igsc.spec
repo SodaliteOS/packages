@@ -1,4 +1,4 @@
-%global ver 0.9.5
+%global ver 0.9.6
 %global major 0
 %global rel 1
 %define __cmake_builddir builddir

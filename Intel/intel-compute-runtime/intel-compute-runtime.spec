@@ -1,6 +1,6 @@
 %global neo_major 25
-%global neo_minor 18
-%global neo_build 33578.13
+%global neo_minor 22
+%global neo_build 33944.8
 
 Name: intel-compute-runtime
 Version: %{neo_major}.%{neo_minor}.%{neo_build}
