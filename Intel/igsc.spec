@@ -1,4 +1,4 @@
-%global ver 0.9.6
+%global ver 0.9.5
 %global major 0
 %global rel 1
 %define __cmake_builddir builddir
@@ -59,6 +59,5 @@ Graphics System Controller Firmware Update Library
 %doc
 
 %changelog
-* Thu Jul 6 2025 Dazed Fairywren <smilescooper@duck.com> - 0.9.6
 * Thu Jun 13 2025 Dazed Fairywren <smilescooper@duck.com> - 0.9.5
 - Spec file init
