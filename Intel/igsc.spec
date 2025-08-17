@@ -50,14 +50,16 @@ Graphics System Controller Firmware Update Library
 %{_libdir}/libigsc.so.%{major}
 %{_libdir}/libigsc.so
 %{_includedir}/igsc_lib.h
-%{_exec_prefix}/lib/cmake/igsc/igscTargets.cmake
-%{_exec_prefix}/lib/cmake/igsc/igscTargets-noconfig.cmake
-%{_exec_prefix}/lib/cmake/igsc/igscConfig.cmake
-%{_exec_prefix}/lib/cmake/igsc/igscConfigVersion.cmake
+%{_libdir}/cmake/igsc/igscTargets.cmake
+%{_libdir}/cmake/igsc/igscTargets-noconfig.cmake
+%{_libdir}/cmake/igsc/igscConfig.cmake
+%{_libdir}/cmake/igsc/igscConfigVersion.cmake
 %{_bindir}/igsc
 
 %doc
 
 %changelog
+* Thu Aug 17 2025 Dazed Fairywren <smilescooper@duck.com> - 0.9.6
+- Update package version
 * Thu Jun 13 2025 Dazed Fairywren <smilescooper@duck.com> - 0.9.5
 - Spec file init
