@@ -1,4 +1,4 @@
-%global ver 0.9.5
+%global ver 0.9.6
 %global major 0
 %global rel 1
 %define __cmake_builddir builddir
@@ -46,7 +46,7 @@ Graphics System Controller Firmware Update Library
 %files
 %defattr(-,root,root)
 %license LICENSE.txt
-%{_libdir}/libigsc.so.%{ver}
+%{_libdir}/libigsc.so.%{ver}.0
 %{_libdir}/libigsc.so.%{major}
 %{_libdir}/libigsc.so
 %{_includedir}/igsc_lib.h
